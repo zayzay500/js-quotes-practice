@@ -40,11 +40,9 @@ As a user, I can:
 3. Clicking the delete button should delete the respective quote from the
   API and remove it from the page without having to refresh.
 
-## Advanced Deliverables
+## Advanced Deliverable
 As a user, I can:
-- Clicking the like button will create a like for this particular quote in the
-  API and update the number of likes displayed on the page without having to
-  refresh.
+- Clicking the like button will create a like for this particular quote in the API and update the number of likes displayed on the page without having to refresh.
   * Use a `POST` request to `http://localhost:3000/likes`
   * The body of the request should be a JSON object containing a key of
   `quoteId`, with an _integer_ value. Use the ID of the quote you're creating the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5. 
@@ -53,6 +51,10 @@ As a user, I can:
 ## Extend Your Learning
 
 * Add a `createdAt` key to your object to track when the like was created. Use [UNIX time][] (the number of seconds since January 1, 1970). The  [documentation][] for the JS `Date` class may be helpful here!
+
+* Add a sort button that can be toggled on or off. When off the list of quotes will appear sorted by the ID. When the sort is active, it will display the quotes by author's name, alphabetically.
+  * One way of doing this is to make a fetch to `http://localhost:3000/quotes?_sort=author`
+  * Also think about what are the other ways you can do this!
 
 [UNIX time]: https://en.wikipedia.org/wiki/Unix_time
 [documentation]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
