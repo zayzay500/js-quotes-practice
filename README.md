@@ -54,6 +54,10 @@ As a user, I can:
 
 * Add a `createdAt` key to your object to track when the like was created. Use [UNIX time][] (the number of seconds since January 1, 1970). The  [documentation][] for the JS `Date` class may be helpful here!
 
+* Add a sort button that can be toggled on or off. When off the list of quotes will appear sorted by the ID. When the sort is active, it will display the quotes by author's name, alphabetically.
+  * One way of doing this is to make a fetch to `http://localhost:3000/quotes?_sort=author`
+  * Also think about what are the other ways you can do this!
+
 [UNIX time]: https://en.wikipedia.org/wiki/Unix_time
 [documentation]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
