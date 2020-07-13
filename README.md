@@ -56,3 +56,7 @@ As a user, I can:
 
 [UNIX time]: https://en.wikipedia.org/wiki/Unix_time
 [documentation]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+## Rubric for Code Challenge
+
+You can find the rubric for this assessment [here](https://github.com/learn-co-curriculum/se-rubrics/blob/master/module-3.md).
