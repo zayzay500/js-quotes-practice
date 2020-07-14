@@ -53,6 +53,11 @@
     {
       "quoteId": 2,
       "id": 11
+    },
+    {
+      "quote": "Always laugh loudly",
+      "author": "Lindsay Pierce",
+      "id": 12
     }
   ],
   "likes": [
